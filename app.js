@@ -1,4 +1,3 @@
-
 const ham = document.querySelector("#humberger");
 const nav = document.querySelector(".Navitems");
 ham.addEventListener("click", function (e) {
