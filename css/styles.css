@@ -255,6 +255,7 @@ a {
   padding-top: 8rem;
   display: flex;
   justify-content: space-between;
+  
   & form {
     display: flex;
     flex-direction: column;
@@ -291,7 +292,12 @@ a {
   & article i {
     padding-right: 17px;
   }
+  
 }
+& article img:hover {
+transform:scale3d(1.1,1.1,1.1);
+}
+
 @media (width < 800px) {
   .products {
     flex-direction: column;
